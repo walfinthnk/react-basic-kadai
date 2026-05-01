@@ -1,0 +1,40 @@
+#root {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.calculator-container {
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  padding: 16px;
+  display: inline-block;
+}
+
+.display {
+  font-size: 24px;
+  text-align: right;
+  padding: 8px;
+  margin-bottom: 12px;
+  background-color: white;
+  border: 1px solid gray;
+  min-width: 200px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 8px;
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
